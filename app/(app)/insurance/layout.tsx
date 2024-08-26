@@ -52,7 +52,7 @@ export default function InsuranceLayout({
     };
 
     // URL to send the request to
-    const url = "http://34.201.124.202/api/student";
+    const url = "https://34.201.124.202/api/student";
 
     fetch(url, options)
       .then((response) => {

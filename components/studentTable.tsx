@@ -71,7 +71,7 @@ export const StudentTable = () => {
     };
 
     // URL to send the request to
-    const url = "http://34.201.124.202/api/student";
+    const url = "https://34.201.124.202/api/student";
 
     fetch(url, options)
       .then((response) => {
@@ -102,7 +102,7 @@ export const StudentTable = () => {
       };
   
       // URL to send the request to api/student/:studentId
-      const url = `http://34.201.124.202/api/student/${id}`;
+      const url = `https://34.201.124.202/api/student/${id}`;
   
       fetch(url, options)
         .then((response) => {
@@ -265,7 +265,7 @@ function EditModal({ data, isEditModalOpen, onClose }:EditDialogModalProps) {
       };
   
       // URL to send the request to api/student/:studentId
-      const url = `http://34.201.124.202/api/student/${id}`;
+      const url = `https://34.201.124.202/api/student/${id}`;
   
       fetch(url, options)
         .then((response) => {
